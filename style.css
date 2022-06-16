@@ -1,0 +1,204 @@
+body{
+    background-color: black;
+}
+
+#Roka {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 200;
+    color:red;
+    text-align: center;
+    font-size: 50px;
+}
+.Roka_mainDiv img
+{
+  width: 100%;
+}
+.text-capitalize{
+    font-size: 30px;
+    color:#FF1616;
+
+}
+
+#myNavbar{
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-muted{
+    font-size: 28px;
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin: 20px;
+font-size: 20px;
+font-style: italic;
+}
+
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: orange;
+}
+
+
+.When We Met
+{
+    margin-bottom: 20px;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
+#myCarousel
+{
+    background-color: red;
+}
+
+#myCarousel img
+{
+    height: 500px;
+       }
+
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : white;
+    font-size: 20px;
+}
+.img{
+    border: 5px;
+    border-color: beige;
+
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.slideshow-container {
+    max-width: 1000px;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  #myCarousel img
+{
+    height: 1200px;
+    
+       }
+
+       .column {
+        position: relative;
+        width: 50%;
+        max-width: 300px;
+        float: left;
+        width: 33.33%;
+        height: 40%;
+        padding: 5px;
+        
+      }
+    
+      {box-sizing: border-box}
+      /* Clear floats after image containers */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .image {
+        display: block;
+        width: 100%;
+        border: #FF1616;
+    
+        
+      }
+      img {
+        border-radius: 8px;
+        border: 2px solid white;
+        padding: 2px;
+      }
+     
+      /* The overlay effect - lays on top of the container and over the image */
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: .2s ;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      /* When you mouse over the container, fade in the overlay title */
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      h2{
+        color: #FF1616;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+      h3{
+        color:#f1f1f1;
+                font-family:'Courier New', Courier, monospace;
+                font-weight: 200;
+                font-style: italic;
+                
+                
+      }
+     p{
+      font-size: 15px;
+        line-height: 1.6;
+     }
+    
